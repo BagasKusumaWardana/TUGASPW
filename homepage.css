@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+	background: #ecf0f5;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #3e5062;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 2px 0;
+  padding-left: 20px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding-top: 40px;
+
+  position: relative;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #ffffff;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.Atas h1 {
+    margin: 0;
+	padding-left: 30px;
+    padding-top: 20px;
+    border: 0;
+	font-size: 25px;
+	font: 'Work Sans';
+	vertical-align: baseline;
+    font : bold ;
+}
+
+#isi{
+    padding: 5px;
+    width: 70%;
+    height: auto;
+    background-color: #ecf0f5;
+    border-top-color: solid #00bcd4;
+    position: relative;
+    margin-top: 5px;
+    font-family: 'Work Sans', sans-serif;
+    float: left;
+    font-size: 15px; 
+}
+
+.isiposting{
+    background-color: #ffffff;
+    width: 95%;
+    height: 150px;
+    margin-bottom: 5px;
+    padding: 5px;
+    float:left;
+    
+}
+
+.logoukm{
+    float: left;
+    height: 140px;
+    width: 150px;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 1px;
+    border: 1px solid #dfdfdf;
+}
+
+.isiposting h2{
+    font-size: 20px;
+    font-weight: bold;
+    color:  #00bcd4;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+.isiposting a{
+    text-decoration: none;
+}
+.isiposting a:hover{
+    color: #dfdfdf;
+}
+.a {
+    color: #65d6e5;
+}
+.sidebar{
+  background-color: #ffffff;
+  float: right;
+  padding : 15px 0px:
+  
+  width: 7%;
+  position: relative;
+  font: 'Work Sans';
+  font-size: 23px;
+  color font: #000;
+  margin-left: 20px;
+}
+
+.sidebar .kotakkanan{
+  
+  position: relative; 
+  background: #3e5062;
+  float: right;
+  width: 100%;
+  color: #3e5062;
+  height: 15px;
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 30px;
+  clear: both;
+  padding-left: 20px
+  padding      
+}
+sidebar .isikotak ul li{
+
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #C0C0C0;
+  padding-left: 0px;
+  float: right;
+}
+.sidebar .isikotak ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.isipostingan{
+    background-color: #ffffff;
+    width: 98%;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.isipostingan h2{
+    text-align: center;
+    color: maroon;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logoposting{
+    width: 230px;
+   border: 1px solid #dfdfdf;
+    height: 250px;
+    float: left;
+    margin: 10px 5px 5px 10px;
+}
+.isipostingan h3{
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    
+}
+.Atas h2 {
+    margin: 0;
+	padding-left: 30px;
+    padding-top: 20px;
+    border: 0;
+	font-size: 25px;
+	font: 'Work Sans';
+	vertical-align: baseline;
+    font : bold ;
+}
+
